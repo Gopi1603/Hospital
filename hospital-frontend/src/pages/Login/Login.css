@@ -1,0 +1,122 @@
+/* Glassmorphism Login Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #080710;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .background {
+    position: absolute;
+    width: 430px;
+    height: 520px;
+  }
+  
+  .background .shape {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+  }
+  
+  .shape:first-child {
+    background: linear-gradient(#1845ad, #23a2f6);
+    left: -80px;
+    top: -80px;
+  }
+  
+  .shape:last-child {
+    background: linear-gradient(to right, #ff512f, #f09819);
+    right: -30px;
+    bottom: -80px;
+  }
+  
+  form {
+    width: 400px;
+    height: 520px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  form h3 {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+  }
+  
+  label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  input {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 5px;
+    margin-top: 8px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  input::placeholder {
+    color: #e5e5e5;
+  }
+  
+  button {
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    color: #080710;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .social div {
+    width: 48%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.27);
+    padding: 10px;
+    border-radius: 5px;
+    color: #eaf0fb;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social div:hover {
+    background-color: rgba(255, 255, 255, 0.47);
+  }
+  
+  .social i {
+    margin-right: 8px;
+  }
+  

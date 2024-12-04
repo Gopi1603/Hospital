@@ -1,0 +1,3 @@
+[submodule "hospital-frontend"]
+	path = hospital-frontend
+	url = https://github.com/Gopi1603/Hospital.git

@@ -1,0 +1,14 @@
+permission_id,permission_name
+1,view_patients
+2,edit_appointments
+3,view_appointments
+4,create_appointments
+5,delete_appointments
+6,view_medical_history
+7,update_patient_vitals
+8,create_treatment_plan
+9,emergency_access
+10,view_medical_history
+11,update_patient_vitals
+12,create_treatment_plan
+13,emergency_access

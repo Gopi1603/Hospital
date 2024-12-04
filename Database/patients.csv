@@ -1,0 +1,8 @@
+patient_id,name,age,contact,medical_history,user_id
+1,Alice Smith,30,1234567890,"No known allergies, Asthma",63
+2,James Bond,45,1234567890,"Hypertension, Asthma",64
+3,Emma Watson,30,2345678901,Allergy to penicillin,65
+4,John Wick,40,3456789012,"Trauma, Head Injury",66
+5,Lara Croft,35,4567890123,Knee surgery history,67
+6,Tony Stark,50,5678901234,"Heart condition, Asthma",68
+51,Bruce Wayne,35,1234567890,No known medical conditions,51

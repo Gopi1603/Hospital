@@ -1,0 +1,23 @@
+user_id,name,email,password,role_id
+53,Dr. Strange,doctor.strange@hospital.com,$2b$10$Ehk6L3eXMX7kL7lmMEzQQON/WhCT34G2AlD4Quad5Q/WNUTcsjapK,2
+54,Iron Man,ironman@hospital.com,$2b$10$kwq7aTD5J7bljyZHmRW/JOpedEv/NM./TPyZ3nS0IAfKF.vfv2kGK,2
+55,Wolverine,wolverine@hospital.com,$2b$10$6ArMEo2JqNvIiUKpjY3xXuUHjn2GOske5fEcobjSzoyJG/oD1LINm,2
+56,Nurse Mikasa,mikasa@hospital.com,$2b$10$D3JwU2kZwr9AmCdNjvg4NOcqM6Wn.NQx.WLxkxrNB2js1jUAcVwra,3
+57,Nurse Hinata,hinata@hospital.com,$2b$10$LmcRZkhRz6/I04N1PiDdtOO8t2bZ4L9QmD9JHSx9Z6IHyV88M2H52,3
+58,Receptionist Sakura,sakura@hospital.com,$2b$10$l9CrnTJy5nuNbnRFAZ0GNOS6pLCT3cEOogcYfYHr8xRKW0YGFnWIG,5
+59,Receptionist Wanda,wanda@hospital.com,$2b$10$ay3AaxNWS2n4ncTDY/eJTuTjGjii0AEsIvAub6lE9Et/4LLzwFKPq,5
+62,Nissipriya,nissipriya@hospital.com,$2b$10$FSvDsvsizhhiw8ajGwqllOHjME1OjhXBFDwojUmQNTQcCBsxTdeqq,3
+63,Alice Smith,alice.smith@hospital.com,$2b$10$anKwUcqlv/fQQ7fMyz6vpOZqlYoMd/qX0s8Vy6zqlyP4i3LhF1tRa,4
+64,James Bond,james.bond@hospital.com,$2b$10$ror2iVgu7zR4U1CuGZzldOXJ7DQqJDG2SbwtVZCZEt/81PxspnBWu,4
+65,Emma Watson,emma.watson@hospital.com,$2b$10$E9h1zo4qFTOHAm93bOahkuJ2w6oVVMKgE1nMgWX2LUdvVomJupKB2,4
+66,John Wick,john.wick@hospital.com,$2b$10$KATZunJ9NfKyRGOWjQ3au.6JqqdN/8aNm9/GusXzSp.wqj2nOs/d.,4
+67,Lara Croft,lara.croft@hospital.com,$2b$10$YNRyBZpT6vMKXVYedVUD9u.gHwfeILIRpIIZduqNJKkXa8xjlqVLu,4
+68,Tony Stark,tony.stark@hospital.com,$2b$10$5.x/4b9Pqh1LHJUbHgUa1OWk1e4BbfaBQ7kRuvqvORXILmJBck36a,4
+1,Dr. John Doe,johndoe@hospital.com,$2b$10$ftrA0FqfVYwZhhCdoKVf0.U0eNIijztVzAIZMklgsS8udBzUuMpym,2
+2,Admin User,admin@hospital.com,$2b$10$.bey7yMuz2RfVkwjvjmm.OWsl2s0C1iOjDc/VHF6ifzsLU.oxVdNG,1
+36,Alice Admin,alice.admin_updated@hospital.com,$2b$10$K7GfESb8gd63htRfgM2dweYKLijhGn6jyQ52nuY0wANARvy7Se4ky,1
+37,Dr. John Doe,john.doe_updated@hospital.com,$2b$10$xBNVfKW.0w6kxopCb9DrFuuu2ztY0MqGsETZTPcmhLVAlIzKygKCO,2
+48,Dr. Sarah Connor,sarah.connor@hospital.com,$2b$10$ZYOM/CwaD5BP55RDxookMOYW0IGZiUjBMZ1o6QZ1ZHD6CxBe7mBqS,2
+49,Nina Williams,nina.williams@hospital.com,$2b$10$1a7KnVGzJAzQ6LmoF4O3WewIFMcLxsz4T6/RSQfVZ4h6M1BxtqvAG,3
+50,Tina Spencer,tina.spencer@hospital.com,$2b$10$Arw.cFl.Q6UPG69M/sKlmuHkUX8no1HvNtTHNk3QL3I2ixOPXXigO,5
+51,Bruce Wayne,bruce.wayne@hospital.com,$2b$10$WcV9xmiqK7.HnRzMXqynJOu9VcO9dHaK2eDYxYxKYwtne5fPzIZt2,4
