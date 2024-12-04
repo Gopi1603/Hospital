@@ -41,7 +41,7 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 - **Login Page**:  
   - Simple UI to authenticate users and interact with backend APIs.  
 - **Role-Based Dashboards**:  
-  - Admin Dashboard for role management and system-wide overview.  
+  - Various Dashboard(Admin,patient,doctor... dashboards) for role management and system-wide overview.  
   - Modular pages for handling appointments, medical records, and diagnostics.  
 
 ---
@@ -84,6 +84,7 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
    ```bash  
    npm install  
    ```  
+ ![Database schema](hospital_erd_refined.png) 
 
 3. **Set up the PostgreSQL database**:  
    - Import the SQL schema located in `/db/hospital.sql`.  
@@ -161,11 +162,10 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 
 ## **Screenshots and Files**  
 ### **Backend Report**  
-- Detailed Postman test results and API documentation (included in the repository) REPORT_BACKEND.pdf
-  ![Report_Results](REPORT_BACKEND.pdf) 
+- Detailed Postman test results and API documentation: [REPORT_BACKEND.pdf](REPORT_BACKEND.pdf)
 
 ### **Login Credentials**  
- ![username_passwords](LOGIN_DETAILS.pdf)
+- Login details for testing roles: [LOGIN_DETAILS.pdf](LOGIN_DETAILS.pdf)
 
 ---
 
