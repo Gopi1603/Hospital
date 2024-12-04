@@ -75,7 +75,7 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 1. **Clone the repository**:  
    
 ```bash  
-[   git clone https://github.com/Gopi1603/Hospital.git  
+ git clone https://github.com/Gopi1603/Hospital.git  
    cd hms-backend
  
 ``` 
@@ -95,10 +95,7 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
      ```
 
 4. **Start the backend server**:  
-     
-```bash  
-   npm install  
-   ```  
+   
 ```bash  
    node server.js  
    ```  
@@ -106,7 +103,7 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 ### **Frontend Setup**  
 1. **Navigate to the frontend folder**:  
    ```bash  
-   cd ../frontend  
+   cd ../hospital-frontend
    ```  
 
 2. **Install dependencies**:  
@@ -184,3 +181,5 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 ---  
 
 For contributions, issues, or pull requests, feel free to reach out or submit to this repository!
+
+<sub><sup>✨ Built with passion and creativity by [Gopi Chakradhar](https://gopi-chakradhar.vercel.app/) ✨</sup></sub>
