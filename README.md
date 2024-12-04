@@ -3,7 +3,7 @@
 ## **Overview**  
 The **Hospital Management System (HMS)** is a secure, **Role-Based Access Control (RBAC)**-powered platform that streamlines hospital operations while safeguarding sensitive data. Designed for multi-role functionality, it empowers **Admins**, **Doctors**, **Nurses**, **Receptionists**, and **Patients** with tailored permissions for managing hospital activities efficiently.  
 
-This repository includes the **backend** built with **Node.js**, **Express**, and **PostgreSQL**, and the **frontend** developed using **React.js**. Additionally, an **AI-driven diagnostics module** powered by **Python (app.py)** offers machine learning-based diagnostic suggestions.  
+This repository includes the **backend** built with **Node.js**, **Express**, and **PostgreSQL**, and the **frontend** developed using **React.js**. Additionally, an **AI-driven diagnostics module** powered by **Python (app.py)** offers machine learning-based diagnostic(78% accuracy) suggestions.  
 
 ---
 
