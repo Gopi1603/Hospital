@@ -73,55 +73,58 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 
 ### **Backend Setup**  
 1. **Clone the repository**:  
-   \`\`\`bash  
+   
+```bash  
    git clone https://github.com/username/hospital-management-system.git  
    cd hospital-management-system/backend  
-   \`\`\`  
+ 
+``` 
 
 2. **Install dependencies**:  
-   \`\`\`bash  
+   ```bash  
    npm install  
-   \`\`\`  
+   ```  
 
 3. **Set up the PostgreSQL database**:  
-   - Import the SQL schema located in \`/db/hospital.sql\`.  
+   - Import the SQL schema located in `/db/hospital.sql`.  
    - Update the \`.env\` file with the necessary database credentials:  
-     \`\`\`env  
+     ```env  
      DATABASE_URL=your-database-url  
      JWT_SECRET=your-secret-key  
-     \`\`\`  
+     ```
 
 4. **Start the backend server**:  
-   \`\`\`bash  
+   
+```bash  
    node server.js  
-   \`\`\`  
+   ```  
 
 ### **Frontend Setup**  
 1. **Navigate to the frontend folder**:  
-   \`\`\`bash  
+   ```bash  
    cd ../frontend  
-   \`\`\`  
+   ```  
 
 2. **Install dependencies**:  
-   \`\`\`bash  
+   ```bash  
    npm install  
-   \`\`\`  
+   ```  
 
 3. **Start the development server**:  
-   \`\`\`bash  
+   ```bash  
    npm start  
-   \`\`\`  
+   ```  
 
 ### **AI-Driven Diagnostics**  
 1. **Install Python dependencies**:  
-   \`\`\`bash  
+   ```bash  
    pip install -r requirements.txt  
-   \`\`\`  
+   ```  
 
 2. **Run the diagnostics app**:  
-   \`\`\`bash  
+   ```bash  
    python app.py  
-   \`\`\`  
+   ```  
 
 ---
 
@@ -129,7 +132,7 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 
 | **Feature**             | **Endpoint**                  | **Description**                             |  
 |--------------------------|-------------------------------|---------------------------------------------|  
-| Authentication           | \`/api/auth/login\`            | Login with JWT-based authentication.        |  
+| Authentication           | `/api/auth/login`            | Login with JWT-based authentication.        |  
 | User Management          | \`/api/users\`                 | CRUD operations for managing users.         |  
 | Role Management          | \`/api/roles\`                 | Assign and manage user roles/permissions.   |  
 | Appointments             | \`/api/appointments\`          | Manage patient appointments.                |  
@@ -142,8 +145,8 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 
 ## **Frontend Details**  
 ### **Pages**  
-- **Login**: \`./pages/Login/Login.js\`  
-- **Dashboard**: \`./pages/Dashboard.js\`  
+- **Login**: `./pages/Login/Login.js`  
+- **Dashboard**: \`./pages/Dashboard.js\
 - **Appointments**: \`./pages/appointments/Appointments.js\`  
 - **Medical Records**:  
   - View Records: \`./pages/medicalRecords/MedicalRecords.js\`  
