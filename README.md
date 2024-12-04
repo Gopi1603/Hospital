@@ -33,7 +33,7 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 - **Emergency Overrides**:  
   - Admin-level functionality to override permissions during critical situations.  
 - **AI-Driven Diagnostics**:  
-  - Machine learning-based suggestions for diagnosis (via \`app.py\`).  
+  - Machine learning-based suggestions for diagnosis (via `app.py`).  
 - **Error Handling**:  
   - Comprehensive error responses for invalid tokens, roles, and server issues.  
 
@@ -60,7 +60,7 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 - **Bootstrap**: Responsive design framework for styling.  
 
 ### **AI-Driven Diagnostics**  
-- **Python**: Implements machine learning models for diagnostics via \`app.py\`.  
+- **Python**: Implements machine learning models for diagnostics via `app.py`.  
 
 ### **Tools**  
 - **Postman**: For testing and validating APIs.  
@@ -75,8 +75,8 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 1. **Clone the repository**:  
    
 ```bash  
-   git clone https://github.com/username/hospital-management-system.git  
-   cd hospital-management-system/backend  
+[   git clone https://github.com/Gopi1603/Hospital.git  
+   cd hms-backend
  
 ``` 
 
@@ -87,14 +87,17 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 
 3. **Set up the PostgreSQL database**:  
    - Import the SQL schema located in `/db/hospital.sql`.  
-   - Update the \`.env\` file with the necessary database credentials:  
+   - Update the `.env` file with the necessary database credentials:  
      ```env  
      DATABASE_URL=your-database-url  
      JWT_SECRET=your-secret-key  
      ```
 
 4. **Start the backend server**:  
-   
+     
+```bash  
+   npm install  
+   ```  
 ```bash  
    node server.js  
    ```  
@@ -116,9 +119,9 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
    ```  
 
 ### **AI-Driven Diagnostics**  
-1. **Install Python dependencies**:  
+1. **open Backend**:  
    ```bash  
-   pip install -r requirements.txt  
+   cd hms-backend 
    ```  
 
 2. **Run the diagnostics app**:  
@@ -133,36 +136,36 @@ This repository includes the **backend** built with **Node.js**, **Express**, an
 | **Feature**             | **Endpoint**                  | **Description**                             |  
 |--------------------------|-------------------------------|---------------------------------------------|  
 | Authentication           | `/api/auth/login`            | Login with JWT-based authentication.        |  
-| User Management          | \`/api/users\`                 | CRUD operations for managing users.         |  
-| Role Management          | \`/api/roles\`                 | Assign and manage user roles/permissions.   |  
-| Appointments             | \`/api/appointments\`          | Manage patient appointments.                |  
-| Medical Records          | \`/api/medical-records\`       | View and update patient medical history.    |  
-| Telemedicine             | \`/api/telemedicine\`          | Manage virtual consultations.               |  
-| Emergency Management     | \`/api/emergencies\`           | Handle critical access overrides.           |  
-| Diagnostics              | \`/api/diagnostics\`           | Manage diagnostic test requests/results.    |  
+| User Management          | `/api/users`                 | CRUD operations for managing users.         |  
+| Role Management          | `/api/roles`                 | Assign and manage user roles/permissions.   |  
+| Appointments             | `/api/appointments`          | Manage patient appointments.                |  
+| Medical Records          | `/api/medical-records`       | View and update patient medical history.    |  
+| Telemedicine             | `/api/telemedicine`          | Manage virtual consultations.               |  
+| Emergency Management     | `/api/emergencies`           | Handle critical access overrides.           |  
+| Diagnostics              | `/api/diagnostics`           | Manage diagnostic test requests/results.    |  
 
 ---
 
 ## **Frontend Details**  
 ### **Pages**  
 - **Login**: `./pages/Login/Login.js`  
-- **Dashboard**: \`./pages/Dashboard.js\
-- **Appointments**: \`./pages/appointments/Appointments.js\`  
+- **Dashboard**: `./pages/Dashboard.js`
+- **Appointments**: `./pages/appointments/Appointments.js`  
 - **Medical Records**:  
-  - View Records: \`./pages/medicalRecords/MedicalRecords.js\`  
-  - Add Records: \`./pages/medicalRecords/NewMedicalRecord.js\`  
-- **Diagnostics**: \`./pages/diagnostics/Diagnostics.js\`  
-- **Emergencies**: \`./pages/emergencies/Emergencies.js\`  
+  - View Records: `./pages/medicalRecords/MedicalRecords.js`  
+  - Add Records: `./pages/medicalRecords/NewMedicalRecord.js`  
+- **Diagnostics**: `./pages/diagnostics/Diagnostics.js`  
+- **Emergencies**: `./pages/emergencies/Emergencies.js`  
 
 ---
 
 ## **Screenshots and Files**  
 ### **Backend Report**  
-- Detailed Postman test results and API documentation (included in the repository).  
+- Detailed Postman test results and API documentation (included in the repository) REPORT_BACKEND.pdf
+  ![Report_Results](REPORT_BACKEND.pdf) 
 
 ### **Login Credentials**  
-- Admin: admin@example.com / password123  
-- Doctor: doctor@example.com / password123  
+ ![username_passwords](LOGIN_DETAILS.pdf)
 
 ---
 
